@@ -1,3 +1,304 @@
-.title{
-    font-size: 1px;
+.Main-head{
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background-color: white;
+}
+.Main-head-image{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Head-image{
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+
+.Main-head-image__text{
+    position: relative;
+   margin-top: 15px;
+    font-size: 24px;
+}
+.Main-head-line{
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    height: 1px;
+    background-color: darkgray;
+}
+.Main-head-materials{
+    position: relative;
+    margin-left: 400px;
+    width: 700px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+.pages{
+    color: rgb(0, 145, 0);
+}
+.pages:hover{
+color: darkgray;
+}
+
+.image-material{
+    width: 100%
+    
+}
+.Introduction{
+    position: relative;
+}
+ .image-material{
+   
+    z-index: 1;
+}
+
+.Introduction-image-text{
+    z-index: 2;
+    position: relative;
+    margin-top: -600px;
+    margin-left: 400px;
+    font-size: 80px;
+    color: white;
+} 
+.Awareness{
+    display: flex;
+    justify-content: space-between;
+   position: relative;
+    width: 100%;
+    height: 600px;
+    margin-top: 550px;
+    
+}
+.Awareness-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    left: 20px;
+    
+}
+.Awareness-image-material{
+    
+    height: 600px;
+    width: 400px;
+    border-radius: 50%;
+}
+.top-div-text{
+   margin-top: 200px;
+   margin-left: 100px;
+    
+    width: 1000px;
+    height: 400px;
+    font-size: 30px;
+}
+.To-do{
+    display: flex;
+}
+.To-do-text{
+    width: 1000px;
+    margin-top: 200px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+.To-do-image{
+    height: 600px;
+    width: 400px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+.contact-image{
+    width: 100%;
+   
+    
+}
+.contact-title{
+    margin-top: -900px;
+    margin-left: 950px;
+    font-size: 75px;
+    color: red;
+}
+.contact-information{
+    margin-top: 50px;
+}
+.contact-name{
+    margin-left: 950px ;
+    
+}
+.contact-email{
+    margin-left: 950px ;
+}
+.contact-message{
+    margin-left: 950px ;
+}
+.contact-button{
+    margin-left: 1000px ;
+}
+.rectangle1 input{
+    width: 300px;
+    height: 40px;
+    background-color: green;
+    border-radius: 20px;
+}
+input,
+select,
+button,
+textarea {
+  width: 250px;
+  padding: 10px;
+}
+textarea {
+    resize: none;
+    width: 300px !important;
+    height: 100px !important;
+}
+input[type="text"] {
+    border: 2px solid darkgreen;
+}
+input[type="text"]:focus {
+    border: 2px solid green !important;
+    background-color: lightgreen;
+}
+input[type="email"] {
+    border: 2px solid darkgreen;
+}
+input[type="email"]:focus {
+    border: 2px solid green !important;
+    background-color: lightgreen;
+}
+
+input[type="button"] {
+    width: 200px;
+    border: 3px solid darkgreen;
+    background-color: darkgreen;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+input[type="button"]:focus {
+    border: 2px solid green !important;
+    background-color: lightgreen;
+}
+.news{
+    margin-top: 150px;
+    margin-left: 450px;
+}
+.news-img{
+    width: 610px;
+    height: 410px;
+}
+.news-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.news-img{
+    margin-bottom: 20px;
+}
+.news-info{
+    width: 640px;
+}
+.news-info p{
+   font-size: 15px;
+}
+.news-news{
+    margin-top: 50px;
+    margin-left: 450px;
+    font-size: 50px;
+}
+.services{
+    width: 100%;
+    height: 900px;
+    background-color: lightseagreen;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(188, 188, 111);
+    border-radius: 50%;
+}
+.circle img{
+    width: 90px;
+    height: 90px;
+}
+.services-title{
+    margin-left: 600px;
+   font-size: 50px;
+}
+.services-mini-title{
+    margin-top: 20px;
+    margin-left: 500px;
+    font-size: 15px;
+}
+.icon-title{
+    font-size: 40px;
+    
+    margin-top: 10px;
+}
+.icon-mini-title{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+   position: relative;
+   right: 30px;
+}
+
+.services-up{
+    margin-left: 125px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about_title{
+    font-size: 50px;
+    margin-left: 675px;
+}
+.middle{
+    display: flex;
+}
+.middle_photo{
+    margin-top: 50px;
+    width: 1000px;
+    height: 800px;
+}
+.middle_text{
+    width: 500px;
+    height: 700px;
+    margin-top: 250px;
+    
+}
+.final{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    background-color: purple;
+}
+.final img{
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+}
+.tbc:hover{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+.final h3{
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.final h6{
+    font-size: 18px;
+    margin-top: 150px;
+    margin-left: 75px;
 }
